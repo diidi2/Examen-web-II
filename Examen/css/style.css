@@ -1,0 +1,117 @@
+:root{
+	--f7-theme-color:#d8737f;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #d8737f; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+}
+
+	.navbar {
+      color:  #d8737f; /* Color de los íconos y título en el navbar */
+    }
+
+.page-content {
+    padding: 15px;
+	border-radius: 8px;
+}
+.img-circle{
+	border-radius: 100%;
+	max-width: 100px;
+}
+
+
+  .featured-card {
+            background-color: #FDF2EA;
+            border-radius: 12px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+	  		color:  #d8737f;
+        }
+        .featured-card img {
+            max-width: 100px;
+            border-radius: 8px;
+			
+			
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 15px 0;
+			color: #d8737f;
+        }
+        .view-all {
+            font-size: 14px;
+            color: #ffb6c1;
+            text-align: right;
+        }
+.block-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #d8737f;
+}
+
+.button.color-pink {
+    background-color: #ffb6c1;
+}
+
+.navbar .title {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Products Grid */
+.products-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.product-card {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    width: 50%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.row img.responsive {
+    width: 100%;
+    border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las filas */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-33 {
+    width: 32%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
